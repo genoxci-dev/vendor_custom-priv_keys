@@ -86,6 +86,6 @@ PRODUCT_CERTIFICATE_OVERRIDES += \
     WifiDialog:com.android.wifi.dialog.certificate.override \
     GmscompatLib:gmscompat_lib.certificate.override
 
-PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/voltage-priv/keys/testkey
+PRODUCT_DEFAULT_DEV_CERTIFICATE := vendor/infinity-priv/keys/testkey
 PRODUCT_EXTRA_RECOVERY_KEYS :=
-PRODUCT_CERTIFICATE_GMSCOMPAT_LIB := vendor/voltage-priv/keys/gmscompat_lib
+PRODUCT_CERTIFICATE_GMSCOMPAT_LIB := vendor/infinity-priv/keys/gmscompat_lib
